@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="dcc1d0a4-2a49-40ec-bfa6-ecd1d017aeb5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/InventoryApp.Service/InventoryService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="8c71f6d8-a20e-4a1a-91c4-526aa0e8daff" SourceId="1" SourceUrl="http://localhost:8733/InventoryApp.Service/InventoryService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="c2f1fba1-6156-4d1c-b468-d63e08599e7e" SourceId="1" SourceUrl="http://localhost:8733/InventoryApp.Service/InventoryService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="f7df0bcd-0f42-49b6-8783-d6880b9e359a" SourceId="1" SourceUrl="http://localhost:8733/InventoryApp.Service/InventoryService/mex" />
+    <MetadataFile FileName="InventoryApp.Service.DTO.xsd" MetadataType="Schema" ID="f2b87f86-6546-428f-9487-4d801b67d591" SourceId="1" SourceUrl="http://localhost:8733/InventoryApp.Service/InventoryService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
