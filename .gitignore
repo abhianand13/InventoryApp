@@ -1,0 +1,16 @@
+.vs
+InventoryApp/bin
+InventoryApp/obj
+InventoryApp.Common/bin
+InventoryApp.Common/obj
+InventoryApp.Modules.Inventory/bin
+InventoryApp.Modules.Inventory/obj
+InventoryApp.Modules.Order/bin
+InventoryApp.Modules.Order/obj
+InventoryApp.Service/bin
+InventoryApp.Service/obj
+InventoryApp.ServiceRepository/bin
+InventoryApp.ServiceRepository/obj
+
+*.exe
+*.pdb
